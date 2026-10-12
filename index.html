@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Events - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="brand">CampusHub</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="register.html">Register</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 id="main-heading">Campus Event Management</h1>
+        <p>Discover exciting cultural, technical, and sports events happening around campus this semester.</p>
+
+        <button onclick="changeMainHeading()">Change Heading</button>
+        <button onclick="changeCardColor()">Change Card Colour</button>
+        <div id="highlights-section">
+            <h2>Event Highlights</h2>
+            <p>Catch up on our best moments, star performances, and student achievements from last month's fests.</p>
+        </div>
+
+        <h2>Featured Upcoming Events</h2>
+        <div class="card-container">
+            <div class="card" id="card-1">
+                <h3>CodeSprint Hackathon</h3>
+                <p>Build innovative coding solutions in 24 hours.</p>
+            </div>
+            <div class="card">
+                <h3>Annual Cultural Fest</h3>
+                <p>Music, dance competitions, and food stalls.</p>
+            </div>
+            <div class="card">
+                <h3>AI Tech Workshop</h3>
+                <p>Hands-on session on machine learning tools.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
